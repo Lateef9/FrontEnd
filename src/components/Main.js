@@ -6,7 +6,7 @@ const Main = () => {
   const [data, setData] = useState(null);
 
   const fetchData = async () => {
-    const resData = await fetch("http://localhost:3001/RELIANCE/earnings");
+    const resData = await fetch("https://backend-six-inky-74.vercel.app/RELIANCE/earnings");
     const result = await resData.json();
     setData(result);
   };
