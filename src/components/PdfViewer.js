@@ -5,8 +5,8 @@ const MyPdfViewer = ({pdflink}) => {
     <div>
       <iframe
         title="PDF Viewer"
-        width="880"
-        height="440"
+        width="805"
+        height="420"
         src={pdflink}
       ></iframe>
     </div>
